@@ -1,0 +1,44 @@
+{
+  "patients": [
+    {
+      "patientId": "1001",
+      "name": "John Doe",
+      "age": 30,
+      "gender": "Male",
+      "contact": "123-456-7890"
+    },
+    {
+      "patientId": "1002",
+      "name": "Jane Smith",
+      "age": 25,
+      "gender": "Female",
+      "contact": "098-765-4321"
+    }
+  ],
+  "doctors": [
+    {
+      "doctorId": "2001",
+      "name": "Dr. Emily Clark",
+      "specialization": "Cardiologist",
+      "availableSlots": ["2024-07-02 10:00"]
+    },
+    {
+      "doctorId": "2002",
+      "name": "Dr. Michael Johnson",
+      "specialization": "Dermatologist",
+      "availableSlots": ["2024-07-01 11:00"]
+    }
+  ],
+  "appointments": [
+    {
+      "patientId": "1001",
+      "doctorId": "2001",
+      "slot": "2024-07-01 11:00"
+    },
+    {
+      "patientId": "1002",
+      "doctorId": "2002",
+      "slot": "2024-07-01 10:00"
+    }
+  ]
+}
